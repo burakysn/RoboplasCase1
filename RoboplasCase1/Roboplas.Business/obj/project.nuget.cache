@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oJ+EVDwJvzsB5lNYn3g8+uFRfCmim4YD9pTGOZ6d26Zr9OMpAqVUKIpM30rTWBcTfUo/tQxAy+iM/+nWi2mI7g==",
+  "dgSpecHash": "NNNcgdB2BNMQFLnXy5BU1MqNcd1HxhBZyRCArb5kv24/bKVBbg3z+hxRjboGvsYD4bByjwyJGGgPlWKm3v/Tlw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\burak\\OneDrive\\Masaüstü\\RoboPlasCase1\\RoboplasCase1\\Roboplas.Business\\Roboplas.Business.csproj",
+  "projectFilePath": "C:\\Users\\burak\\OneDrive\\Masaüstü\\GitHub2\\RoboplasCase1\\RoboplasCase1\\Roboplas.Business\\Roboplas.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\burak\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

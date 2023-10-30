@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rM/G9Kv4apBZSIVkIEC56OpE5B6gezruDpFxm1GQJo67AGEv2Z7g4ZCcR+Z18d36XTq910VSFF6yXSWREqvGNw==",
+  "dgSpecHash": "yx5MDio1QmIDkXBhk+LSLyqPHfgYSt1GGV+rrDAOiptfPQ+nRGMFN+xbdWBihmbsCZEz3dNBEGnvXp+6aZZ8Zw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\burak\\OneDrive\\Masaüstü\\RoboPlasCase1\\RoboplasCase1\\Roboplas.Model\\Roboplas.Model.csproj",
+  "projectFilePath": "C:\\Users\\burak\\OneDrive\\Masaüstü\\GitHub2\\RoboplasCase1\\RoboplasCase1\\Roboplas.Model\\Roboplas.Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\burak\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

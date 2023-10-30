@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\burak\\OneDrive\\Masaüstü\\RoboPlasCase1\\RoboplasCase1\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Users\\burak\\OneDrive\\Masaüstü\\GitHub2\\RoboplasCase1\\RoboplasCase1\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\burak\\OneDrive\\Masaüstü\\RoboPlasCase1\\RoboplasCase1\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\burak\\OneDrive\\Masaüstü\\GitHub2\\RoboplasCase1\\RoboplasCase1\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\burak\\OneDrive\\Masaüstü\\RoboPlasCase1\\RoboplasCase1\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\burak\\OneDrive\\Masaüstü\\GitHub2\\RoboplasCase1\\RoboplasCase1\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\burak\\OneDrive\\Masaüstü\\RoboPlasCase1\\RoboplasCase1\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\burak\\OneDrive\\Masaüstü\\GitHub2\\RoboplasCase1\\RoboplasCase1\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\burak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\burak\\OneDrive\\Masaüstü\\RoboPlasCase1\\RoboplasCase1\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\burak\\OneDrive\\Masaüstü\\GitHub2\\RoboplasCase1\\RoboplasCase1\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\burak\\AppData\\Roaming\\NuGet\\NuGet.Config",

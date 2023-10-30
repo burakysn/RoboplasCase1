@@ -1,0 +1,54 @@
+<div class="container">
+    <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Sign In</button>
+          <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Sign Up</button>
+        </div>
+      </nav>
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+            <div class="justify-content-center align-item-center d-flex mt-5">
+                <div class="row">
+                    <div class="col-12">
+                        <label for="userName">User Name</label>
+                        <input type="text" class="form-control" [(ngModel)]="model.userName" id="userName" placeholder="User Name" required autofocus>
+                    </div>
+                    <div class="col-12 mt-2">
+                        <label for="password">Password</label>
+                        <input type="text" class="form-control" id="password"  [(ngModel)]="model.password"  placeholder="Password" required>
+                    </div>
+                    <div class="col-12">
+                        <button type="button" class="btn btn-success" (click)="login()">Sign In</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                <div class="justify-content-center align-item-center d-flex mt-5">
+                    <div class="row">
+                        <div class="col-12">
+                            <label for="userName">User Name</label>
+                            <input type="text" class="form-control" [(ngModel)]="signUpModel.userName" id="userName" placeholder="User Name" required autofocus>
+                        </div>
+                        <div class="col-12 mt-2">
+                            <label for="email">Email</label>
+                            <input type="text" class="form-control" id="email"  [(ngModel)]="signUpModel.email"  placeholder="Email" required>
+                        </div>
+                        <div class="col-12 mt-2">
+                            <label for="fullname">Full Name</label>
+                            <input type="text" class="form-control" id="fullname"  [(ngModel)]="signUpModel.fullName"  placeholder="Full Name" required>
+                        </div>
+                        <div class="col-12 mt-2">
+                            <label for="password">Password</label>
+                            <input type="text" class="form-control" id="password"  [(ngModel)]="signUpModel.password"  placeholder="Password" required>
+                        </div>
+                        <div class="col-12">
+                            <button type="button" class="btn btn-success" (click)="singUp()">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+</div>

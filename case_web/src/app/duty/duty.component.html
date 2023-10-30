@@ -1,0 +1,42 @@
+<div>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Görev Ekle
+    </button>
+</div>
+<div>
+    <app-add-duty></app-add-duty>
+</div>
+<div class="table-responsive">
+    <table class="table table-hover table-bordered table-striped" style="min-height:300px;">
+
+        <thead>
+            <tr class="bg-light">
+                <td>#</td>
+                <th scope="col" width="20%">Title</th>
+                <th scope="col" width="10%">Description </th>
+                <th scope="col" width="20%"><span>LastDate</span></th>
+                <th scope="col" width="20%"><span>Status</span></th>
+                <th> işlemler</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let a of duty;let i = index">
+                <td>{{i + 1}}</td>
+                <td>{{a.title}}</td>
+                <td>{{a.description}}</td>
+                <td>{{a.lastDate | date: 'dd/MM/yyyy'}}</td>
+                <td>
+                    <button type="button" class="btn btn-success" *ngIf="!a.status" (click)="statusUpdate(a.id)"><i class="fa fa-check" aria-hidden="true"></i></button>
+                    <button type="button" class="btn btn-danger" *ngIf="a.status" (click)="statusUpdate(a.id)"><i class="fa fa-times" aria-hidden="true"></i></button>
+                </td>
+                <td> 
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                        (click)="getId(a.id)"> <i class="fa fa-pencil" aria-hidden="true"></i></button>
+                    <button type="button" class="btn btn-danger" (click)="delete(a.id)"> <i class="fa fa-trash" aria-hidden="true"></i></button>
+                </td>
+
+            </tr>
+
+        </tbody>
+    </table>
+</div>
