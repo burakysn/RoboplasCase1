@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Ax3pVPyAQYHWdDwhKGDdzcNoWVGr+ijRy9LsnepEMAk=",
+  "Source": "Roboplas.WebAPI",
+  "BasePath": "_content/Roboplas.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
